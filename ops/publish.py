@@ -128,7 +128,7 @@ def manifest(context):
 
 def export_commit(repo, commit, service, context, env):
     need(repo.resolve() == repo and repo.name == service and service == 'jtmb-dev', 'owned_repository_required')
-    git = ['git', '-c', 'safe.directory='+str(repo), '-C', str(repo)]
+    git = ['git', '-c', 'safe.directory='+str(repo), '-c', 'core.autocrlf=true', '-C', str(repo)]
     need(run(git+['remote','get-url','origin'],env).decode().strip().removesuffix('.git') == 'https://github.com/jtmb/jtmb-dev', 'owned_origin_changed')
     need(run(git+['rev-parse',commit+'^{commit}'],env).decode().strip()==commit, 'immutable_source_missing')
     need(not run(git+['status','--porcelain','--untracked-files=all'],env), 'source_must_be_committed')

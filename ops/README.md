@@ -32,3 +32,7 @@ maintenance intentionally changes only the library/HTML/config items recorded in
 the source manifest; the user's profile content/CSS/image/application JS remain.
 Perform the normal browser acceptance after all remaining implementation. A
 published image or successful scan alone is not deployment acceptance.
+
+The clean-source check applies Windows checkout line-ending rules per command;
+no Git/user setting or working file is normalized. Build inputs are exported from
+raw immutable Git blobs, independent of working-tree CRLF representation.

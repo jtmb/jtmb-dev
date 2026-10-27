@@ -1,0 +1,9 @@
+*
+!dockerfile
+!static-site/
+!static-site/**
+!nginx/
+!nginx/**
+!package.json
+!package-lock.json
+!dependencies.provenance.json

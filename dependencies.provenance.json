@@ -1,0 +1,65 @@
+{
+  "UTC": "2026-10-27T00:49:08.541786+00:00",
+  "library": "jquery",
+  "originalVersion": "2.1.4",
+  "newVersion": "4.0.0",
+  "npmMetadataURL": "https://registry.npmjs.org/jquery/4.0.0",
+  "npmTarballURL": "https://registry.npmjs.org/jquery/-/jquery-4.0.0.tgz",
+  "npmTarballIntegrity": "sha512-TXCHVR3Lb6TZdtw1l3RTLf8RBWVGexdxL6AC8/e0xZKEpBflBsjh9/8LXw+dkNFuOyW9B7iB3O1sP7hS0Kiacg==",
+  "npmTarballBytes": 887975,
+  "scriptSHA256": "39a546ea9ad97f8bfaf5d3e0e8f8556adb415e470e59007ada9759dce472adaa",
+  "officialCDNExactByteMatch": true,
+  "officialCDNURL": "https://code.jquery.com/jquery-4.0.0.min.js",
+  "publishedAdvisories": {
+    "2.1.4": [
+      {
+        "GHSA": "GHSA-257q-pv89-v3xv",
+        "CVE": "CVE-2020-23064",
+        "summary": "Duplicate Advisory: jQuery Cross Site Scripting vulnerability",
+        "URL": "https://github.com/advisories/GHSA-257q-pv89-v3xv",
+        "published_at": "2023-06-26T21:30:58Z"
+      },
+      {
+        "GHSA": "GHSA-jpcq-cgw6-v4j6",
+        "CVE": "CVE-2020-11023",
+        "summary": "Potential XSS vulnerability in jQuery",
+        "URL": "https://github.com/advisories/GHSA-jpcq-cgw6-v4j6",
+        "published_at": "2020-04-29T22:19:14Z"
+      },
+      {
+        "GHSA": "GHSA-gxr4-xjj5-5px2",
+        "CVE": "CVE-2020-11022",
+        "summary": "Potential XSS vulnerability in jQuery",
+        "URL": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2",
+        "published_at": "2020-04-29T22:18:55Z"
+      },
+      {
+        "GHSA": "GHSA-6c3j-c64m-qhgq",
+        "CVE": "CVE-2019-11358",
+        "summary": "XSS in jQuery as used in Drupal, Backdrop CMS, and other products",
+        "URL": "https://github.com/advisories/GHSA-6c3j-c64m-qhgq",
+        "published_at": "2019-04-26T16:29:11Z"
+      },
+      {
+        "GHSA": "GHSA-wv67-q8rr-grjp",
+        "CVE": "CVE-2019-5428",
+        "summary": "Duplicate Advisory: Prototype Pollution in jquery",
+        "URL": "https://github.com/advisories/GHSA-wv67-q8rr-grjp",
+        "published_at": "2019-04-23T15:59:10Z"
+      },
+      {
+        "GHSA": "GHSA-rmxg-73gg-4p98",
+        "CVE": "CVE-2015-9251",
+        "summary": "Cross-Site Scripting (XSS) in jquery",
+        "URL": "https://github.com/advisories/GHSA-rmxg-73gg-4p98",
+        "published_at": "2018-01-22T13:32:06Z"
+      }
+    ],
+    "4.0.0": []
+  },
+  "applicationMainJSUnchanged": true,
+  "mainUsesReadyDataAppendToGetOnly": true,
+  "packageInstalledOnHost": false,
+  "nodeModulesCreated": false,
+  "browserAcceptancePending": true
+}
